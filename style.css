@@ -1,0 +1,323 @@
+/*
+h1{
+    font-family: Vollkorn;
+    font-weight: bolder;
+    color: #5b6169;
+    background-color: #FEE8A5;
+    height: 37px;
+    padding-top: 12px;
+    padding-left: 9px;
+    font-size: 22px;
+}
+
+.orange{
+   width:60px;
+    display:block;
+    float: left;
+    background-color: orange;
+    position: absolute;
+}
+
+.orange-bar {
+    width:700px;
+    display:block;
+    float: right;
+        background-color: #FEE8A5;
+    position: absolute;
+        margin-left:40px;
+} */
+
+/*
+section {
+    width: 350px;
+    height: 10px;
+    margin: auto;
+    padding: 10px;
+  position: relative;
+
+}
+div#one {
+    width: 15px;
+    height: 30px;
+    background: red;
+    float: left;
+  position: absolute;
+}
+div#two {
+    margin-left: 15px;
+    margin-top: -15px;
+    height: 30px;
+    background: black;
+    color: white;
+
+}
+
+.h1-one{
+    font-size: 18px;
+}
+
+.p-one {
+  font-size: 12px;
+} */
+
+
+
+
+
+
+.sec{
+    margin-left: 3%;
+    margin-right: 2%;
+    width: 100%;
+	overflow:hidden;
+}
+
+.dark-orange {
+    width: 5px;
+    /* display: block; */
+    float: left;
+    background-color: orange;
+    position: absolute;
+    margin-top: -99px;
+    font-family: Vollkorn;
+    font-weight: bolder;
+    color: #5b6169;
+    /* background-color: #FEE8A5; */
+    height: 43px;
+    padding-top: 1px;
+    padding-left: 9px;
+    font-size: 2vw;
+    margin-top: 35px;
+}
+
+.dark-orange-h1 {
+    font-family: Vollkorn;
+    font-weight: bolder;
+    color: white;
+    height: 37px;
+    padding-top: 12px;
+    padding-left: 9px;
+    font-size: 0;
+}
+
+.orange-bar {
+    width: 215px;
+    height: 0px;
+    display: block;
+    float: right;
+    background-color: #FEE8A5;
+    position: absolute;
+    margin-left: 44px;
+    margin-bottom: 100px;
+    margin-top: -143px;
+}
+
+
+.orange-bar-h1 {
+    width: 45vw;
+    font-family: Vollkorn;
+    font-weight: bolder;
+    color: #5b6169;
+    background-color: #FEE8A5;
+    height: 37px;
+    padding-top: -77px;
+    padding-left: 3px;
+    font-size: 1.3vw;
+    margin-top: 178px;
+    margin-left: -36px;
+    padding-top: 7px;
+    padding-bottom: -23px;
+}
+
+.orange-section-description {
+    width: 45vw;
+    float: left;
+    margin-top: 98px;
+    color: black;
+    font-size: 1vw;
+    line-height: 20px;
+    /* margin-top: 98px; */
+    position: relative;
+}
+
+
+
+
+.solid-box {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 9px;
+    margin-top: 24px;
+    margin-left: 0px;
+    width: 96%;
+}
+
+.dashed-box {
+    border: 1px dashed black;
+    border-radius: 5px;
+    padding: 9px;
+    margin-top: 102px;
+    width: 44.3vw;
+    z-index: 4;
+}
+
+
+/* gray */
+
+.dark-gray {
+    width: 5px;
+    float: left;
+    background-color: #DDDDDD;
+    position: absolute;
+    margin-top: -99px;
+    font-family: Vollkorn;
+    font-weight: bolder;
+    color: #5b6169;
+    height: 43px;
+    padding-top: 1px;
+    padding-left: 9px;
+    font-size: 2vw;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.dark-gray-h1 {
+    font-family: Vollkorn;
+    font-weight: bolder;
+    color: white;
+    height: 37px;
+    padding-top: 12px;
+    padding-left: 9px;
+    font-size: 0;
+}
+
+.gray-bar {
+    width: 215px;
+    height: 0px;
+    display: block;
+    float: right;
+    background-color: #FEE8A5;
+    position: absolute;
+    margin-left: 44px;
+    margin-bottom: 100px;
+    margin-top: -143px;
+}
+
+
+.gray-bar-h1 {
+    width: 42vw;
+    font-family: Vollkorn;
+    font-weight: bolder;
+    color: #5b6169;
+    background-color: #F7F8F9;
+    height: 37px;
+    padding-top: -77px;
+    padding-left: 3px;
+    font-size: 1.3vw;
+    margin-top: 178px;
+    margin-left: -20px;
+    padding-top: 7px;
+    padding-bottom: -23px;
+}
+
+.gray-section-description {
+    width: 43.4vw;
+    float: left;
+    margin-top: 98px;
+    color: black;
+    font-size: 1vw;
+    line-height: 20px;
+    position: relative;
+    margin-left: 15px;
+}
+
+
+
+/* product images */
+.femipro{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+#femipro-bio-one{
+    margin-left: 77%;
+    margin-top: -1%;
+    padding-top: -2%;
+    float: right;
+    position: absolute;
+  	transform: rotate(16deg);
+}
+#femipro-bio-two {
+    margin-top: -1%;
+    padding-top: -2%;
+    float: right;
+}
+
+#femipro-bio-threefour {
+    margin-top: -6%;
+    padding-top: -2%;
+    float: right;
+}
+
+ #femipro-bio-five {
+    margin-top: 5%;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* product images */
+.femipro{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    margin-left: 77%;
+    margin-top: -1%;
+    padding-top: -2%;
+    float: right;
+}
+
+#femipro-bio-one{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    margin-left: 77%;
+    margin-top: -1%;
+    padding-top: -2%;
+    float: right;
+    position: absolute;
+  	transform: rotate(16deg);
+}
+#femipro-bio-two {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    margin-top: -1%;
+    padding-top: -2%;
+    float: right;
+}
+
+#femipro-bio-threefour {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    margin-top: -6%;
+    padding-top: -2%;
+    float: right;
+}
+
+ #femipro-bio-five {
+    max-width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
