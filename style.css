@@ -86,7 +86,7 @@
   border-radius: 5px;
   padding: 9px;
   margin-top: 102px;
-  width: 44.3vw;
+  width: 45.5vw;
   z-index: 4;
   height: 550px;
 }
@@ -252,6 +252,44 @@
 .reading-container {
   max-width: initial;
 }
+
+.product-bundles {
+  margin-top: 13px;
+}
+
+.left {
+  background: green;
+  display: table-cell;
+  width: 12.33vw;
+  height: 11vw;
+}
+
+.center {
+  background: gold;
+  display: table-cell;
+  width: 40.33vw;
+}
+
+.right {
+  background: gray;
+  display: table-cell;
+  width: 33.33vw;
+}
+
+.container-two  {
+  margin-top: -2px !important;
+}
+.container {
+  width: 46.8vw;
+  margin-left: -15px;
+  margin-top: 92px;
+  border: 1px solid black;
+  padding-right: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+
+
 
 /* fixes */
 
