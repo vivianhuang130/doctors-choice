@@ -1,3 +1,21 @@
+form[action^="/cart/add"] [type="submit"] {
+    visibility: visible !important;
+}
+div.rc_block__type--active {
+    background-color: white !important;
+}
+.product-info .section {
+    border-top: 1px solid #1630a6;
+    padding: 1.3em 0;
+    border-bottom: 1px solid #1630a6 !important;
+}
+
+/* 2nd subscription option */
+.rc_label {
+color: #676767 !important;
+}
+
+
 .sec {
   margin-left: 3%;
   margin-right: 2%;
@@ -214,6 +232,18 @@
   border-bottom: 1px solid #777777;
 }
 
+/* Title */
+#ttt{
+   display: none;
+}
+
+/* picture slider */
+.product-gallery {
+    margin-right: 13px;
+    margin-left: 3%;
+    width: 700px;
+}
+
 /* product images */
 
 .femipro {
@@ -310,17 +340,11 @@
   padding-top: 12px;
 }
 
-
-
-.product-info{
-    width: 300px;
-    display: inline-block;
-    position: fixed;
-    /* background: dimgray; */
-    border: 1px solid #c9cacc;
-    border-radius: 2px;
-    padding: 19px;
+.social {
+display: none;
 }
+
+
 
 /* tabs */
 *, *:before, *:after {
@@ -454,4 +478,220 @@
 }
 .vp400{
 visibility: hidden;
+}
+
+/* image slider */
+.swiper-container.gallery-top.swiper-container-horizontal {
+	height: 48% !important;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  /* Title */
+  #ttt{
+   display: initial;
+  }
+  .product-title{
+  display: none;
+  }
+  .orange-section-description {
+    	width: 93%;
+    	float: left !important;
+    	margin-top: 98px !important;
+   		color: #232020 !important;
+    	font-size: 14px !important;
+    	line-height: 22px !important;
+    	position: relative !important;
+	}
+
+  .orange-bar-h1 {
+    width: 82vw;
+    font-family: Vollkorn;
+    font-weight: bolder;
+    color: #5b6169;
+    background-color: #FEE8A5;
+    height: 43px;
+    padding-left: 3px;
+    font-size: 4vw;
+    margin-top: 178px;
+    margin-left: -36px;
+    padding-top: 7px;
+
+	}
+
+  #femipro-bio-one {
+    display: none;
+  }
+  #femipro-bio-two {
+    max-width: 43%;
+  }
+  #femipro-bio-threefour {
+    max-width: 41%;
+  }
+
+  .gray-bar-h1 {
+    width: 64vw;
+    font-size: 3.9vw;
+  }
+  .dark-gray {
+    height: 37px;
+  }
+
+  .gray-section-description {
+    width: 74.3vw;
+    font-size: 3.7vw;
+	}
+  .femipro-bio-pic {
+    max-width: 111%;
+    margin-left: -4%;
+	}
+  .dashed-box {
+    width: 84.5vw;
+    height: 127vw;
+	}
+  .solid-box {
+    width: 100%;
+	}
+
+  #ttt{
+    padding: 9px;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+
+  }
+
+
+  .subscriptions {
+    font-size: 12px;
+    padding: 0 0 0 20px;
+    width: 110px;
+  }
+
+  .buy-button {
+    width: 110px;
+    margin-left: 6px;
+    padding: 7px;
+  }
+
+
+  /* picture slider */
+.product-gallery {
+    margin-right: 13px;
+    margin-left: 3%;
+    width: 313px;
+  }
+  .majorinfo {
+    position: relative;
+    min-height: 0px !important;
+  }
+
+  .money{
+    top: -21px !important;
+  }
+  .money1{
+    font-size: 17px !important;
+    color: black;
+    padding-left: 20px !important;
+  }
+  .product-gallery .gallery-thumbs {
+    position: relative;
+    margin: -2px 0;
+    border: 1px solid darkgrey;
+    padding-top: 16px;
+	}
+
+  .product-info .pricearea {
+    height: 0px;
+}
+
+  .rc_block__type {
+    width: 93% !important;
+    margin-left: 11px !important;
+    border-radius: 4px !important;
+    padding: 0 20px !important;
+    top: -10px !important;
+    font-size: 13px !important;
+}
+  .sharing.productoptions.section {
+    border-top: 1px solid #1630a6 !important;
+    padding: 15px !important;
+    max-width: 94% !important;
+    margin-left: 10px !important;
+
+}
+  .product-gallery .gallery-thumbs a img {
+    margin-left: 6%;
+}
+  .rc_popup__hover{
+        font-size: 13px;
+    background-color: #f3f3f3;
+    width: 98%;
+}
+}
+/* @media (min-width: 768px){
+.product-gallery .gallery-top .swiper-slide img {
+    max-height: calc(100vh);
+}
+}
+   */
+
+
+
+/* need to activate globally */
+
+@media only screen and (min-width: 992px) {
+
+.product-info{
+    width: 318px;
+    display: inline-block;
+    position: fixed;
+    border: 1px solid #c9cacc;
+    border-radius: 6px;
+    padding: 19px;
+    margin-left: 2%;
+  }
+  .money{
+    top: 29px !important;
+    left: -14px;
+  }
+  .money1{
+    font-size: 17px !important;
+    color: black;
+    padding-left: 20px !important;
+  }
+
+
+   .rc_block__type {
+    width: 93% !important;
+    margin-left: 11px !important;
+    border-radius: 4px !important;
+    padding: 0 20px !important;
+    top: -10px !important;
+    font-size: 13px !important;
+}
+  .sharing.productoptions.section {
+    border-top: 1px solid #1630a6 !important;
+    padding: 15px !important;
+    max-width: 94% !important;
+    margin-left: 10px !important;
+
+}
+  .product-gallery .gallery-thumbs a img {
+    margin-left: 6%;
+}
+  .rc_popup__hover{
+        font-size: 17px;
+    background-color: #f3f3f3;
+    width: 98%;
+}
+
+  label.rc_label {
+    /* color: #000000; */
+}
+
+
+
 }
