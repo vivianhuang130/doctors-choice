@@ -1,0 +1,189 @@
+
+.dark-orange-lightgray {
+  width: 5px;
+  /* display: block; */
+  float: left;
+  background-color: #FD9827;
+  position: absolute;
+  margin-top: -99px;
+  font-family: Vollkorn;
+  font-weight: bolder;
+  color: #5b6169;
+  height: 43px;
+  padding-top: 1px;
+  padding-left: 9px;
+  font-size: 2vw;
+  margin-top: 35px;
+}
+
+.dark-orange-lightgray-h1 {
+  font-family: Vollkorn;
+  font-weight: bolder;
+  color: white;
+  height: 37px;
+  padding-top: 12px;
+  padding-left: 9px;
+  font-size: 0;
+}
+
+.orange-lightgray-bar {
+  width: 215px;
+  height: 0px;
+  display: block;
+  float: right;
+  background-color: #FEE8A5;
+  position: absolute;
+  margin-left: 44px;
+  margin-bottom: 100px;
+  margin-top: -143px;
+}
+
+.orange-lightgray-bar-h1 {
+  width: 700px;
+  font-family: Vollkorn;
+  font-weight: bolder;
+  color: #5b6169;
+  background-color: #F7F7F7;
+  height: 43px;
+  padding-top: -77px;
+  padding-left: 3px;
+  font-size: 17px;
+  margin-top: 178px;
+  margin-left: -36px;
+  padding-top: 7px;
+  padding-bottom: -23px;
+}
+
+.orange-lightgray-section-description {
+  width: 700px;
+  float: left;
+  margin-top: 98px;
+  color: black;
+  font-size: 15px;
+  line-height: 1.6em;
+  position: relative;
+}
+.red-font-highlight{
+    color: red;
+}
+.highlight {
+    background: transparent linear-gradient(transparent 50%, #ff9 50%) repeat scroll 0 0;
+
+}
+.wikipedia {
+  background: #FFF3FF;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #ff8e8e;
+  width: 700px;
+  float: left;
+  margin-top: 98px;
+  color: black;
+  font-size: 15px;
+  line-height: 1.6em;
+  position: relative;
+}
+.same-width{
+  width: 700px;
+  float: left;
+  margin-top: 98px;
+  color: black;
+  font-size: 15px;
+  line-height: 1.6em;
+  position: relative;
+}
+.green-font-highlight{
+  color: #094;
+}
+.yellow-highlight{
+background: transparent linear-gradient(transparent 50%, #ff9 50%) repeat scroll 0 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 867px) {
+  .orange-lightgray-bar {
+    width: 100% !important;
+    max-width: 93% !important;
+  }
+  .orange-lightgray-bar-h1 {
+    max-width: 89% !important;
+    width: 100%;
+  }
+  .orange-lightgray-section-description {
+    width: 100%;
+    max-width: 93%;
+  }
+  .wikipedia{
+    width: 100%;
+    max-width: 93%;
+  }
+  .same-width{
+    width: 100%;
+    max-width: 93%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .orange-lightgray-bar {
+    width: 100% !important;
+    max-width: 93% !important;
+  }
+  .orange-lightgray-bar-h1 {
+    /* width: 290%; */
+    max-width: 93% !important;
+  }
+  .orange-lightgray-section-description {
+    width: 100%;
+    max-width: 93%;
+  }
+  .wikipedia {
+    width: 100%;
+    max-width: 93%;
+  }
+.same-width {
+    width: 100%;
+    max-width: 93%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .orange-lightgray-section-description {
+    width: 93%;
+    float: left !important;
+    margin-top: 98px !important;
+    color: #232020 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    position: relative !important;
+  }
+  .wikipedia {
+    width: 93%;
+    float: left !important;
+    margin-top: 98px !important;
+    color: #232020 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    position: relative !important;
+  }
+.same-width {
+    width: 93%;
+    float: left !important;
+    margin-top: 98px !important;
+    color: #232020 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    position: relative !important;
+  }
+  .orange-lightgray-bar-h1 {
+    width: 82vw;
+    font-family: Vollkorn;
+    font-weight: bolder;
+    color: #5b6169;
+    background-color: #F7F7F7;
+    height: 43px;
+    padding-left: 3px;
+    font-size: 4vw;
+    margin-top: 178px;
+    margin-left: -36px;
+    padding-top: 7px;
+  }
+}
