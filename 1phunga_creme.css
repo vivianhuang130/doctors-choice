@@ -258,6 +258,13 @@ padding: 24px 23px;
   position: fixed;
   height: 460px;
 }
+.wiki-globe{
+  float: left;
+  }
+  .wiki-flower{
+    float:right;
+    padding: 4px 4px 9px 17px;
+  }
 
 @media only screen and (min-width: 768px) and (max-width: 867px) {
   .orange-lightgray-bar {
@@ -346,4 +353,113 @@ padding: 24px 23px;
     margin-left: -36px;
     padding-top: 7px;
   }
+}
+
+
+
+
+
+
+
+
+/* blue gray */
+.dark-blue {
+}
+
+.dark-blue-h1 {
+}
+
+.blue-bar {
+}
+
+.blue-bar-h1 {
+}
+
+.blue-section-description {
+}
+
+
+/* dark gray light gray */
+
+.dark-gray {
+}
+
+.dark-gray-h1 {
+
+}
+
+.lightgray-bar {
+}
+
+.lightgray-bar-h1 {
+}
+
+
+/* bright orange */
+.dark-bright-orange {
+}
+
+.dark-bright-orange-h1 {
+}
+
+.bright-orange-bar {
+}
+
+.bright-orange-bar-h1 {
+}
+
+.bright-orange-section-description {
+}
+
+.dark-orange-lightgray {
+}
+
+.dark-orange-lightgray-h1 {
+}
+
+.orange-lightgray-bar {
+}
+
+.orange-lightgray-bar-h1 {
+}
+
+.orange-lightgray-section-description {
+}
+
+.red-font-highlight{
+    color: red;
+}
+.highlight {
+    background: transparent linear-gradient(transparent 50%, #ff9 50%) repeat scroll 0 0;
+
+}
+.wikipedia {
+}
+
+.section-description {
+}
+
+.same-width{
+}
+
+.green-font-highlight{
+}
+
+.green{
+}
+
+.yellow-highlight{
+background: transparent linear-gradient(transparent 50%, #ff9 50%) repeat scroll 0 0;
+}
+
+/* ingredients */
+.ingredients {
+}
+
+.ingredients-gray{
+}
+
+.ingredients-white{
+    border: 1px solid #cc6;
+      background: white;
 }
