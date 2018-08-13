@@ -1071,6 +1071,17 @@ text-align: center;
     border: 1px solid #ff8e8e;
     border-radius: 10px;
 }
+
+.orange-oval{
+    text-align: center;
+    background: #f90;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 10%;
+    border-radius: 8px;
+}
+
 /* id */
 /* orange-highlight*/
 #orange-highlight{
@@ -1210,7 +1221,7 @@ text-align: center;
   }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1294px) {
+@media only screen and (min-width: 1040px) and (max-width: 1294px) {
   .product-info {
     position: inherit !important;
     float: none !important;
@@ -1277,6 +1288,194 @@ text-align: center;
     padding-top: 10.2px !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1039px) {
+
+  .product-info {
+    position: inherit !important;
+    float: none !important;
+    margin-top: 60% !important;
+    margin-right: 400px !important;
+    overflow: hidden !important;
+    max-width: 96% !important;
+    width: 100%;
+    margin-left: 26px !important;
+    border: none;
+    height: 374px;
+}
+  .sec {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    max-width: 92% !important;
+}
+  .dashed-box {
+    border: 1px dashed black;
+    border-radius: 5px;
+
+  }
+  .grayer-bar-h1 {
+    width: 107% !important;
+    max-width: 700px !important;
+  }
+  .orange-bar {
+    width: 100% !important;
+    max-width: 93% !important;
+  }
+.orange-bar-h1 {
+    max-width: 78% !important;
+    width: 68%;
+}
+
+  .orange-section-description {
+/*     width: 100%;
+    max-width: 96%; */
+         width: 96%;
+  }
+  .ingredients{
+        width: 100%;
+    max-width: 96%;
+  }
+  #femipro-bio-one {
+    display: none;
+}
+  .product-gallery{
+  	max-width: 93% !important;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  .swiper-wrapper{
+  	height: 465px !important;
+  }
+    .product-title {
+    display: none;
+  }
+    #ttt {
+    font-size: 4.5vw !important;
+    color: #1f1f1fde !important;
+    display: initial !important;
+    margin-left: 39px !important;
+  }
+    .majorinfo {
+    min-height: 0px !important;
+  }
+  .product-gallery.gallery-top.swiper-slide img{
+  	max-height: 100% !important;
+  }
+
+  .gray-bar{
+       width: 82% !important;
+    z-index: 4 !important;
+    max-width: 93% !important;
+  }
+  .gray-bar-h1{
+  width: 102% !important;
+    z-index: 4 !important;
+    max-width: 96% !important;
+  }
+  .grayer-bar {
+    width: 75% !important;
+  }
+  .gray-section-description {
+    width: 90% !important;
+  }
+
+/*new darkgray bar */
+.new-dark-gray-h1 {
+    width: 60vw !important;
+}
+  .new-new-gray-section-description{
+    width: 100%;
+    max-width: 96%;
+}
+
+  .reading-container {
+    padding-left: 5% !important;
+    padding-right: 0px !important;
+}
+  .container {
+    max-width: 96% !important;
+  }
+.product-info-main {
+    width: 92.5% !important;
+    max-width: 100% !important;
+  }
+  .responsive {
+    width: 96%;
+    margin-left: 30px;
+}
+    .orange-lightgray-bar {
+    width: 100% !important;
+    max-width: 93% !important;
+  }
+  .orange-lightgray-bar-h1 {
+    max-width: 89% !important;
+    width: 100%;
+  }
+  .orange-lightgray-section-description {
+    width: 100%;
+    max-width: 96%;
+  }
+    .wikipedia{
+/*     width: 100%; */
+/*     max-width: 96%; */
+      max-width: 96%
+  }
+    .same-width{
+    width: 100%;
+    max-width: 96%;
+  }
+    .blue-section-description {
+    width: 100%;
+    max-width: 96%;
+  }
+  .bright-orange-section-description {
+    width: 100%;
+    max-width: 96%;
+  }
+  .section-description {
+    width: 100%;
+    max-width: 96%;
+  }
+  .ingredients {
+    width: 100% !important;
+    max-width: 96% !important;
+  }
+    .blue-bar-h1 {
+    max-width: 89% !important;
+    width: 100%;
+  }
+  .lightgray-bar-h1 {
+    max-width: 89% !important;
+    width: 100%;
+  }
+  .bright-orange-bar-h1 {
+    max-width: 93% !important;
+    width: 100%;
+  }
+  .dashed-underline{
+      max-width: 62% !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 868px) and (max-width: 999px) {
   .product-info {
